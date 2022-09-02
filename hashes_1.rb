@@ -53,15 +53,15 @@ email = {
 }
 
 # Write code that prints your email hash to the terminal.
-p email 
+p email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-# YOUR CODE HERE
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-# YOUR CODE HERE
+p email.values
 
 
 #-------------------
