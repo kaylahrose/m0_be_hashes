@@ -112,3 +112,34 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails = [
+  {
+    "sender" => "b@example.com",
+    "subject" => "Hi there",
+    "recipients" => "me@example.com",
+    "cc_recipients" => "c@example.com",
+    "bcc_recipients" => nil,
+    "read" => false,
+    "body" => "Hey! How are you doing?"
+  },
+  {
+    "sender" => "c@example.com",
+    "subject" => "Your purchase",
+    "recipients" => "d@example.com",
+    "cc_recipients" => "help@business.com",
+    "bcc_recipients" => "employee@business.com",
+    "read" => true,
+    "body" => "Please leave a review."
+  },
+  {
+    "sender" => "e@example.com",
+    "subject" => "Receipt",
+    "recipients" => "me@example.com",
+    "cc_recipients" => nil,
+    "bcc_recipients" => nil,
+    "read" => true,
+    "body" => "Here is your receipt:"
+  }
+]
+p emails
